@@ -11,6 +11,8 @@ using static BCrypt.Net.BCrypt;
 
 namespace ModelsApi.Data
 {
+
+
     public static class DbUtilities
     {
         internal static void SeedData(ApplicationDbContext context, int bcryptWorkfactor)
